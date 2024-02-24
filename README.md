@@ -24,27 +24,23 @@ To get the app running locally on your machine, follow these steps:
    ```sh
    git clone https://github.com/evan3v4n/image-gallery-app.git
    ```
-2. Navigate to the project directory:
-  ```sh
-  cd image-gallery-app
-  ```
-3. install the dependencies:
+2. install the dependencies:
   ```sh
   npm install
   ```
 
-4. Create a .env.local file at the root of your project and add your Pexels API key:
+3. Create a .env.local file at the root of your project and add your Pexels API key:
   ```env
   NEXT_PUBLIC_PEXELS_API_KEY=your_pexels_api_key_here
 ```
-5. Start the development server:
+4. Start the development server:
 ```sh
 npm run dev
 ```
 This will start the server on http://localhost:3000. You can now view the app in your browser.
 Production Build
 
-6. To create a production build, run:
+5. To create a production build, run:
 ```sh
 npm run build
 ```
